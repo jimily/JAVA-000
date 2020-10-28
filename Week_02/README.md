@@ -15,3 +15,6 @@
 - ParallelGC，性能比SerialGC好，但还是存在较长的STW时间
 - CMS 暂停时间短，响应速度快，缺点是无法处理浮动垃圾，会存在空间碎片，CPU占用大
 - G1 通过划分多个内存区域做增量整理和回收，响应速度快，适用于多核心、大内存环境
+
+
+> OKHttpClient示例见文件《OkHttpClientDemo.java》
